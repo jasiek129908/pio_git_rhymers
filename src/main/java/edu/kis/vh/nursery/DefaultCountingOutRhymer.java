@@ -9,6 +9,18 @@ public class DefaultCountingOutRhymer {
 
     private int total = DEFAULT_ERROR_CODE;
 
+    public static int getDefaultErrorCode() {
+        return DEFAULT_ERROR_CODE;
+    }
+
+    public static int getSIZE() {
+        return SIZE;
+    }
+
+    public static int getFullCheck() {
+        return FULL_CHECK;
+    }
+
     public void setTotal(int total) {
         this.total = total;
     }
@@ -42,4 +54,11 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public void setNumbers(int[] numbers) {
+        this.numbers = numbers;
+    }
 }
