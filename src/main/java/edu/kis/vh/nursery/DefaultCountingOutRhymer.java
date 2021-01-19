@@ -4,7 +4,7 @@ public class DefaultCountingOutRhymer {
 
     private static final int DEFAULT_ERROR_CODE = -1;
     private static final int SIZE = 12;
-    private static final int FULL_CHECK =11;
+    private static final int FULL_CHECK = 11;
     private int[] numbers = new int[SIZE];
 
     private int total = DEFAULT_ERROR_CODE;
@@ -19,10 +19,6 @@ public class DefaultCountingOutRhymer {
 
     public static int getFullCheck() {
         return FULL_CHECK;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
     }
 
     public int getTotal() {
@@ -57,8 +53,5 @@ public class DefaultCountingOutRhymer {
     public int[] getNumbers() {
         return numbers;
     }
-
-    public void setNumbers(int[] numbers) {
-        this.numbers = numbers;
-    }
+    
 }
