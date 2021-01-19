@@ -9,6 +9,10 @@ public class DefaultCountingOutRhymer {
 
     private int total = DEFAULT_ERROR_CODE;
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
     public int getTotal() {
         return total;
     }
